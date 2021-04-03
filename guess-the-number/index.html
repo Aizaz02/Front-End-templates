@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the number</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="text-center">
+    <nav class="navbar navbar-dark bg-dark">
+      <a href="#" class="navbar-brand">Guess The Number</a>
+    </nav>
+    <main>
+      <h1 class="banner p-3">1.2.3</h1>
+      <div class="form-group">
+        <input
+          type="number"
+          class="form-control form-control-bg"
+          placeholder="What's your guess?"
+          name=""
+          id="number-guess" 
+          autofocus
+        />
+      </div>
+      <div id="result"></div>
+      <button class="btn btn-lg btn-secondary" id="number-submit">
+        Check Me
+      </button>
+      <button class="btn btn-lg btn-light" id="restart-game">Restart</button>
+      <div id="history"></div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
